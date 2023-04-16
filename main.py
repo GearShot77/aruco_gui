@@ -9,6 +9,7 @@ from std_msgs.msg import String
 
 
 def callback(data):
+    time.sleep(1)
     rospy.loginfo("Aruco-simple/pose",data.data)
 
 def subscriber():
